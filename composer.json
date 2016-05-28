@@ -1,7 +1,13 @@
 {
+    "name": "molecular/molecularFramework",
+    "authors": [
+        {
+            "name": "antonio",
+            "email": "toninho0007@yahoo.com.br"
+        }
+    ],
     "require": {
-        "molecular/molecular": "0.1.1",
-        "devster/ubench": "^1.2"
+        "molecular/molecular": "0.1.1"
     },
 
     "autoload": {
