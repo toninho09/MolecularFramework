@@ -11,14 +11,14 @@ function app(){
  * @return \Molecular\Http\Input
  */
 function input(){
-    return app()->request->input();
+    return app()->getRequest()->input();
 }
 
 /**
  * @return \Molecular\Container\ServiceContainer
  */
 function container(){
-    return app()->container;
+    return app()->getContainer();
 }
 
 /**
@@ -40,5 +40,5 @@ function view($file, $date = null){
  * @return \Molecular\Routes\RouteDispacher
  */
 function route(){
-    return app()->route;
+    return app()->getRoute();
 }
