@@ -7,7 +7,7 @@
         }
     ],
     "require": {
-        "molecular/molecular": "0.1.4"
+        "molecular/molecular": "0.2.0"
     },
 
     "autoload": {
