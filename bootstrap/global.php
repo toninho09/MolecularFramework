@@ -22,6 +22,13 @@ function container(){
 }
 
 /**
+ * @return \Molecular\Injection\Resolve
+ */
+function inject(){
+    return app()->getInject();
+}
+
+/**
  * @param $file
  * @param $date
  * @return \Molecular\View\View
