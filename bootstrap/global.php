@@ -24,7 +24,7 @@ function container(){
 /**
  * @return \Molecular\Injection\Resolve
  */
-function inject(){
+function resolve(){
     return app()->getInject();
 }
 
