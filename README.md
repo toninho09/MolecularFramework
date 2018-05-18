@@ -75,7 +75,7 @@ route()->group('api', function ($group) {
 
 
 ## Middlewares
-Os middlewares do Molecular funcionam como o padrão decoreitor, onde o resultado do middleware anterior
+Os middlewares do Molecular funcionam como o padrão decorator, onde o resultado do middleware anterior
 é passado para o próximo através do comando `next`, após o ultimo middleware responder, as
 chamadas são retornadas por todos os middlewares do ultimo para o primeiro, para qualquer
 tratamento após a execução.  
